@@ -1,0 +1,23 @@
+# ── Phase 1A dependencies ─────────────────────────────────────────────────────
+# Local-model, CPU-only build. Using LangChain/LangGraph ecosystem.
+
+# Markdown parsing (Step 3)
+mistune==3.0.2
+python-frontmatter==1.1.0
+
+# LangChain core (Step 5+)
+langchain-core
+langchain-community
+
+# Dense embeddings + vector store (Step 6)
+langchain-huggingface
+langchain-qdrant
+sentence-transformers
+
+# BM25 — used internally by LangChain's BM25Retriever (Step 5)
+rank-bm25==0.2.2
+
+# Utilities
+tqdm==4.66.4
+pyyaml==6.0.1
+python-dotenv==1.0.1
