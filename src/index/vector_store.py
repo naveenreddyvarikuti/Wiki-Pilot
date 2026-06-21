@@ -1,7 +1,5 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_qdrant import QdrantVectorStore
-from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams
 
 from src.ingest.chunker import Chunk
 from src.index.bm25_store import chunks_to_documents
@@ -23,18 +21,12 @@ def build_vector_store(chunks: list[Chunk]) -> QdrantVectorStore:
     docs = chunks_to_documents(chunks)
     embeddings = get_embeddings()
 
-    client = QdrantClient(":memory:")
-    client.create_collection(
-        collection_name=COLLECTION_NAME,
-        vectors_config=VectorParams(size=EMBEDDING_DIM, distance=Distance.COSINE),
-    )
-
-    vector_store = QdrantVectorStore(
-        client=client,
-        collection_name=COLLECTION_NAME,
+    vector_store = QdrantVectorStore.from_documents(
+        documents=docs,
         embedding=embeddings,
+        location=":memory:",
+        collection_name=COLLECTION_NAME,
     )
-    vector_store.add_documents(docs)
 
     return vector_store
 

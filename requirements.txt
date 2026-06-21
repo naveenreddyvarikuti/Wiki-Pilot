@@ -14,6 +14,9 @@ langchain-huggingface
 langchain-qdrant
 sentence-transformers
 
+# Local LLM inference (Step 9)
+llama-cpp-python
+
 # BM25 — used internally by LangChain's BM25Retriever (Step 5)
 rank-bm25==0.2.2
 
