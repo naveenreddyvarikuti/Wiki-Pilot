@@ -1,7 +1,4 @@
-# ── Phase 1A dependencies ─────────────────────────────────────────────────────
-# Local-model, CPU-only build. Using LangChain/LangGraph ecosystem.
 
-# Markdown parsing (Step 3)
 mistune==3.0.2
 python-frontmatter==1.1.0
 
@@ -16,6 +13,9 @@ sentence-transformers
 
 # Local LLM inference (Step 9)
 llama-cpp-python
+
+# Evaluation (Phase 1B)
+ragas
 
 # BM25 — used internally by LangChain's BM25Retriever (Step 5)
 rank-bm25==0.2.2

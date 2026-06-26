@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "What is the Slack channel for the Agent Foundations team?",
+    "ground_truth": "The Slack channel for the Agent Foundations team is #g_agent_foundations.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 2,
+    "question": "How long should new GitLab team members spend on onboarding before starting team-specific work?",
+    "ground_truth": "GitLab recommends taking at least two full weeks for onboarding and only starting team-specific onboarding and training in week three.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/general-onboarding/_index.md"]
+  },
+  {
+    "id": 3,
+    "question": "What is the goalkeeper rotation in the Agent Foundations team?",
+    "ground_truth": "The goalkeeper rotation is a weekly rotation where one engineer is assigned to triage and direct incoming requests, questions, and issues to the appropriate people or teams. The goalkeeper acts as the first line of support but is not expected to solve every issue on their own.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 4,
+    "question": "What is the TaNewKi call at GitLab?",
+    "ground_truth": "The TaNewKi call is a pre-onboarding call hosted by the People Operations team where soon-to-onboard team members can meet, socialize, and ask questions before their start date. It occurs every two weeks on Thursday at multiple times to account for timezones.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/general-onboarding/_index.md"]
+  },
+  {
+    "id": 5,
+    "question": "What is the Slack channel for the AI Coding group?",
+    "ground_truth": "The Slack channel for the AI Coding group is #g_ai_coding.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/ai-coding/_index.md"]
+  },
+  {
+    "id": 6,
+    "question": "What is the Slack channel for the Context Systems group?",
+    "ground_truth": "The Slack channel for the Context Systems group is #g_context_systems.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/context-systems/_index.md"]
+  },
+  {
+    "id": 7,
+    "question": "What is the maximum amount a GitLab team member can be reimbursed through the Growth and Development Fund per year?",
+    "ground_truth": "Team members can be reimbursed for up to $10,000 per calendar year for approved growth experiences.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/learning-and-development/growth-and-development/_index.md"]
+  },
+  {
+    "id": 8,
+    "question": "What is GitLab's Elevate program?",
+    "ground_truth": "Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and receiving great feedback, coaching, and recognizing unconscious bias.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/learning-and-development/elevate-programs/elevate/_index.md"]
+  },
+  {
+    "id": 9,
+    "question": "What is the vision of the Duo Chat group?",
+    "ground_truth": "The Duo Chat group is focused on developing GitLab Duo Chat as a platform by supporting other product groups and the wider community in integrating more capabilities.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/duo-chat/_index.md"]
+  },
+  {
+    "id": 10,
+    "question": "What does the AI Framework group do?",
+    "ground_truth": "The AI Framework group supports other product groups at GitLab with the AI Abstraction Layer and GitLab AI feature development.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/ai-framework/_index.md"]
+  },
+  {
+    "id": 11,
+    "question": "What is career development according to GitLab?",
+    "ground_truth": "Career development is the non-linear, lifelong growth process integrating learning, work, leisure, and change. It happens in all directions, including subject matter expertise, lateral growth to new teams, and linear growth through a job family.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/learning-and-development/career-development/_index.md"]
+  },
+  {
+    "id": 12,
+    "question": "What is the due date for onboarding issues at GitLab?",
+    "ground_truth": "Each onboarding issue has a due date of 30 days.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/general-onboarding/_index.md"]
+  },
+  {
+    "id": 13,
+    "question": "What host systems does DuoChat support?",
+    "ground_truth": "DuoChat is integrated with GitLab Web UI, VS Code, Visual Studio, and JetBrains.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/duo-chat/_index.md"]
+  },
+  {
+    "id": 14,
+    "question": "What is the mission of the Global Search group?",
+    "ground_truth": "The Global Search group is responsible for improving and expanding search implementations using Elasticsearch, PostgreSQL, Zoekt, and Gitaly. They handle global search functionality, UI, ingestion mechanisms, optimal indexing, administrative tools, and installation mechanisms.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/engineering/ai/search/_index.md"]
+  },
+  {
+    "id": 15,
+    "question": "What is the GitLab talent brand mission?",
+    "ground_truth": "GitLab's mission is to enable everyone to contribute to and co-create the software that powers our world. The Talent Brand team ensures external reputation as an employer aligns with internal culture.",
+    "difficulty": "easy",
+    "source_files": ["content/handbook/people-group/employment-branding/_index.md"]
+  },
+  {
+    "id": 16,
+    "question": "What are the responsibilities of the AI Framework group at GitLab?",
+    "ground_truth": "The AI Framework group's responsibilities include facilitating AI integration through the AI Abstraction Layer and AI Gateway, ensuring global observability and monitoring, supporting the AI chat system framework, incorporating new AI providers, assisting with AI Gateway production support, and LLM inference support including prompt engineering and evaluation.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/ai-framework/_index.md"]
+  },
+  {
+    "id": 17,
+    "question": "How does the Agent Foundations team approach retrospectives?",
+    "ground_truth": "The team uses a mixed retrospective format due to geographical distribution. Every 4th week, a donut Slackbot pairs team members in random groups of two. Each pair collaborates on filling in the retro issue, ideally through a sync meeting or via Slack, spending 30 minutes to an hour. Every 2nd week there is a 30-minute time blocker for everyone to answer retro discussions.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 18,
+    "question": "What workflow statuses does GitLab use for tracking engineering issues?",
+    "ground_truth": "GitLab uses workflow statuses including: New (unclassified), Refinement (not ready for development), Ready for Development, In Dev (actively being worked on), Blocked (depends on other work), In Review (submitted for review), Verification (needs verification after review), and Closed (verified and confirmed working).",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 19,
+    "question": "What is the process for applying to the Growth and Development Fund at GitLab?",
+    "ground_truth": "The process involves three steps: 1) Have a growth conversation with your manager to discuss the learning opportunity, 2) Create a Growth and Development issue using the appropriate template at least 30 days in advance, 3) Get approval based on cost tiers - manager approval for $0-$1,000, manager plus VP for $1,000-$5,000, and manager plus e-group for $5,000-$10,000.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/growth-and-development/_index.md"]
+  },
+  {
+    "id": 20,
+    "question": "What projects does the AI Coding team own?",
+    "ground_truth": "The AI Coding team owns Code Suggestions, Duo Code Review, Duo Context Exclusion, Codebase Semantic Indexing, GitLab Events Platform, Code-related Slash Commands (including /explain, /refactor, /tests, /fix), Repository X-Ray, and AI Assisted Service.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/ai-coding/_index.md"]
+  },
+  {
+    "id": 21,
+    "question": "How is the Elevate program structured?",
+    "ground_truth": "Elevate is organized into 6 learning modules including 2 practice labs. Each module is 60 minutes long and takes place at 2-week intervals. Participants receive an Elevate Leadership Certificate of Completion after completing the 4 learning modules (not including Practice Labs). New groups of approximately 50 people leaders start every 2-3 months.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/elevate-programs/elevate/_index.md"]
+  },
+  {
+    "id": 22,
+    "question": "What is the weekly async update process for the Agent Foundations team?",
+    "ground_truth": "Team members post updates every Wednesday for all assigned issues that are at least In Dev status. Updates use a structured template covering progress and status, next steps, blockers, and a confidence level for the current milestone. Team members should tag their engineering manager, product manager, and collaborators.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 23,
+    "question": "What are the three pillars of GitLab's talent brand vision?",
+    "ground_truth": "The three pillars are: 1) Candidate Education to Support Conversion - empowering candidates with clear insights to improve engagement, 2) Evolved Brand Messaging - moving from remote-first to an impact-driven Co-Create the Future vision, 3) Elevated Candidate Journey - creating a seamless authentic experience that mirrors life at GitLab.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/employment-branding/_index.md"]
+  },
+  {
+    "id": 24,
+    "question": "What is the ownership structure for DuoChat integrations across IDE platforms?",
+    "ground_truth": "The Duo Chat group owns shared UI components in Duo-UI and Chat Webview for VS Code, Visual Studio, and JetBrains. The Editor Extensions group owns the Chat Business Logic for all IDE platforms. For complex feature integrations, the Duo Chat group drives integration creating stubs with dummy data, while Editor Extensions supports integration into IDE plugins.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/duo-chat/_index.md"]
+  },
+  {
+    "id": 25,
+    "question": "What are the roles and responsibilities in career development at GitLab?",
+    "ground_truth": "Career development has three role categories: Team Member Owned (take charge of own development, close skill gaps, seize opportunities), Manager Facilitated (discuss career aspirations, provide feedback and contacts, support development), and GitLab Supported (communicate future direction, provide tools, communicate internal opportunities).",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/career-development/_index.md"]
+  },
+  {
+    "id": 26,
+    "question": "What is the Flow Registry and why was it created?",
+    "ground_truth": "The Flow Registry is a centralized system in the AI Gateway to manage GitLab's growing collection of Duo Agent Platform flows. It was created after the migration of Duo Workflow Service to the AI Gateway and the reimplementation of Duo Chat using the Duo Workflow codebase, establishing a pathway for creating diverse agents and flows in a scalable manner.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/architecture/design-documents/ai_agent_registry/_index.md"]
+  },
+  {
+    "id": 27,
+    "question": "What search technologies does the Global Search team maintain?",
+    "ground_truth": "The Global Search team maintains Elasticsearch for full-text and vector similarity search, GitLab Zoekt for scalable exact code search with 48+ TiB indexed on GitLab.com, and the AI Context Abstraction Layer providing a unified interface for RAG across multiple vector databases including Elasticsearch, OpenSearch, and PostgreSQL with pgvector.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/search/_index.md"]
+  },
+  {
+    "id": 28,
+    "question": "What is the difference between an Agent, a Flow, and the Duo Agent Platform at GitLab?",
+    "ground_truth": "An Agent is a system where LLMs dynamically direct processes and tool usage. A Flow orchestrates one or multiple agents along with predefined deterministic actions into a sequence of steps connected through predefined code paths. The Duo Agent Platform is the engine that runs Flows.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/architecture/design-documents/ai_agent_registry/_index.md"]
+  },
+  {
+    "id": 29,
+    "question": "What are the design principles of GitLab's talent brand strategy?",
+    "ground_truth": "The four design principles are: 1) Do less but go bigger - focus on most promising tactics, 2) Measure and analyze to continually improve, 3) Nail the basics - improve how jobs are posted and job ads look, 4) Invite GitLab team members to be part of the journey through storytelling and ambassador empowerment.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/employment-branding/_index.md"]
+  },
+  {
+    "id": 30,
+    "question": "What are the three functional teams within the Custom Models group and what does each own?",
+    "ground_truth": "The three teams are: 1) Model Selection - owns which models are available and selection across .com and self-hosted, 2) Health and Connectivity - owns the diagnostic surface and customer-facing setup and connectivity issues, 3) Gateway Services - owns prompt registry, telemetry, and the AIGW side of billing.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/custom-models/_index.md"]
+  },
+  {
+    "id": 31,
+    "question": "What are the eligibility requirements for the Growth and Development Fund?",
+    "ground_truth": "Applicants must be full-time GitLab employees who meet performance expectations in their role and are not on leave status.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/growth-and-development/_index.md"]
+  },
+  {
+    "id": 32,
+    "question": "What projects does the Context Systems team own?",
+    "ground_truth": "The Context Systems team owns Knowledge Graph for semantic understanding of codebases, Codebase Semantic Indexing for advanced code search using embeddings, Repository X-Ray for repository analysis and metadata extraction, and Duo Context Exclusion for filtering sensitive or irrelevant code context.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/context-systems/_index.md"]
+  },
+  {
+    "id": 33,
+    "question": "How does the UX review process work for the Duo Chat team?",
+    "ground_truth": "Since Duo Chat doesn't have a dedicated UX person, UX experts from the AI Framework team assist with reviews. Each MR should include a clear screencast. Reviewers should try to reproduce changes locally or schedule a sync-up. UX reviews are aimed for every user-facing MR as long as capacities allow.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/engineering/ai/duo-chat/_index.md"]
+  },
+  {
+    "id": 34,
+    "question": "What job shadow programs are available at GitLab?",
+    "ground_truth": "GitLab offers several shadow programs including CEO Shadow, CFO Shadow, CMO Shadow, Security Team Shadow, and Support Team Shadow.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/career-development/_index.md"]
+  },
+  {
+    "id": 35,
+    "question": "What is the 70-20-10 rule for development at GitLab?",
+    "ground_truth": "The 70-20-10 rule is a development framework referenced in GitLab's career development resources that structures learning as 70% on-the-job experiences, 20% social learning and interactions, and 10% formal education and training.",
+    "difficulty": "medium",
+    "source_files": ["content/handbook/people-group/learning-and-development/career-development/_index.md"]
+  },
+  {
+    "id": 36,
+    "question": "How does GitLab's onboarding process compare to traditional in-office onboarding, and what communication guidelines does the Agent Foundations team follow to support remote collaboration?",
+    "ground_truth": "GitLab's onboarding is self-driven and asynchronous, completed through GitLab issues rather than in-person sessions, with a 30-day due date. The Agent Foundations team specifically supports remote work through async-first communication, using Slack channel #g_agent_foundations for all work-related communication, recording sync calls, weekly async status updates every Wednesday, and communicating in the open by default.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/people-group/general-onboarding/_index.md", "content/handbook/engineering/ai/agent-foundations/_index.md"]
+  },
+  {
+    "id": 37,
+    "question": "How does GitLab's AI architecture support both traditional search and AI-powered features, and what role does the Global Search team play?",
+    "ground_truth": "The Global Search team maintains core infrastructure including Elasticsearch for full-text and vector search, GitLab Zoekt for exact code search, and the AI Context Abstraction Layer for RAG across multiple vector databases. They collaborate with the AI Framework team on data preparation and information retrieval stages of RAG. Advanced Search serves as an enabling framework for other teams to scale beyond PostgreSQL constraints, enable sophisticated filtering, power analytics, and support AI workflows.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/engineering/ai/search/_index.md", "content/handbook/engineering/ai/ai-framework/_index.md"]
+  },
+  {
+    "id": 38,
+    "question": "How does GitLab invest in manager development, and what happens if a manager cannot complete the Elevate program?",
+    "ground_truth": "GitLab invests through the Elevate program, a required leadership development program for all people leaders. If managers are over capacity, they should first speak to their manager to explore options. If the manager supports leaving, the Talent Development team is notified along with the People Business Partner. Team members who leave partway through must still complete the program in the future, with re-entry reviewed on a case-by-case basis.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/people-group/learning-and-development/elevate-programs/elevate/_index.md"]
+  },
+  {
+    "id": 39,
+    "question": "How do GitLab's AI teams divide responsibilities across the AI Coding, Context Systems, and AI Framework groups?",
+    "ground_truth": "AI Coding owns user-facing features like Code Suggestions, Duo Code Review, and slash commands. Context Systems owns the underlying context gathering tools including Knowledge Graph, Codebase Semantic Indexing, Repository X-Ray, and Context Exclusion. AI Framework provides the infrastructure layer supporting all groups through the AI Abstraction Layer, AI Gateway, observability, monitoring, and AI chat system framework.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/engineering/ai/ai-coding/_index.md", "content/handbook/engineering/ai/context-systems/_index.md", "content/handbook/engineering/ai/ai-framework/_index.md"]
+  },
+  {
+    "id": 40,
+    "question": "How does GitLab's approach to career development and the Growth and Development Fund work together to support employee growth?",
+    "ground_truth": "Career development at GitLab is team-member owned, manager facilitated, and company supported. The G&D Fund provides up to $10,000 per year for growth experiences. The process starts with a career/growth conversation with your manager, then creating an issue 30 days in advance, then getting tiered approval based on cost. Available options include mentorship, internship for learning, professional certifications, conferences, academic study, and shadow programs.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/people-group/learning-and-development/career-development/_index.md", "content/handbook/people-group/learning-and-development/growth-and-development/_index.md"]
+  },
+  {
+    "id": 41,
+    "question": "What is GitLab's strategy for evolving from individual AI agents to a scalable multi-agent platform?",
+    "ground_truth": "GitLab migrated the Duo Workflow Service to the AI Gateway and reimplemented Duo Chat using Duo Workflow codebase, then renamed Duo Workflow to Duo Agent Platform. They created the Flow Registry as a centralized system to manage growing collections of flows. The architecture distinguishes between Agents (LLMs with tools), Flows (orchestrations of agents and deterministic actions), and the Duo Agent Platform (the engine that runs Flows).",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/engineering/architecture/design-documents/ai_agent_registry/_index.md"]
+  },
+  {
+    "id": 42,
+    "question": "How does GitLab ensure that its employer brand accurately reflects internal culture, and what mechanisms are in place for this?",
+    "ground_truth": "GitLab's Talent Brand team ensures alignment through three strategic pillars: candidate education for conversion, evolved brand messaging centered on Co-Create the Future, and an elevated candidate journey. They follow design principles of doing less but going bigger, measuring and analyzing, nailing the basics, and inviting team members as ambassadors. The vision rests on three themes: everyone can contribute, anyone can thrive, and fostering a values-led remote culture.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/people-group/employment-branding/_index.md"]
+  },
+  {
+    "id": 43,
+    "question": "How does the Custom Models group's organizational structure enable end-to-end ownership of GitLab's model intelligence layer?",
+    "ground_truth": "The Custom Models group is organized into three functional teams with end-to-end ownership: Model Selection owns which models are available and how they're chosen across all deployment types. Health and Connectivity owns diagnostics, setup, configuration, and connectivity issues. Gateway Services owns the prompt registry, telemetry, and AIGW billing. Each team handles its own support escalations, and Staff Engineers support multiple teams as needed.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/engineering/ai/custom-models/_index.md"]
+  },
+  {
+    "id": 44,
+    "question": "How does the Duo Chat team's planning process work from pre-planning through milestone commitment?",
+    "ground_truth": "The planning process has two phases. The top part involves ongoing pre-planning activities that happen continuously as new issues are created. The bottom part covers the first two weeks of the calendar month when issues are formally added for the milestone, overall load is assessed, and deliverables are committed. Engineers should be able to answer whether requirements are clear, concrete, comprehensive, and cover edge cases before assigning a weight.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/engineering/ai/duo-chat/_index.md"]
+  },
+  {
+    "id": 45,
+    "question": "How does GitLab handle travel expenses for conferences approved through the Growth and Development Fund?",
+    "ground_truth": "The G&D Fund pays for conference registration and tickets. Travel costs including hotel and meals come from the Travel and Expenses budget of the requestor's department. These costs should be detailed in the G&D request issue but expensed separately. VP approval is required on all applications over $1,000 involving travel, and managers should have approval from their budget owner.",
+    "difficulty": "hard",
+    "source_files": ["content/handbook/people-group/learning-and-development/growth-and-development/_index.md"]
+  },
+  {
+    "id": 46,
+    "question": "What is GitLab's current stock price?",
+    "ground_truth": "I don't have enough information to answer this question.",
+    "difficulty": "out_of_scope",
+    "source_files": []
+  },
+  {
+    "id": 47,
+    "question": "Who is the CEO of GitLab?",
+    "ground_truth": "I don't have enough information to answer this question.",
+    "difficulty": "out_of_scope",
+    "source_files": []
+  },
+  {
+    "id": 48,
+    "question": "What programming language is GitLab primarily written in?",
+    "ground_truth": "I don't have enough information to answer this question.",
+    "difficulty": "out_of_scope",
+    "source_files": []
+  },
+  {
+    "id": 49,
+    "question": "How many employees does GitLab have?",
+    "ground_truth": "I don't have enough information to answer this question.",
+    "difficulty": "out_of_scope",
+    "source_files": []
+  },
+  {
+    "id": 50,
+    "question": "What is the salary range for a senior engineer at GitLab?",
+    "ground_truth": "I don't have enough information to answer this question.",
+    "difficulty": "out_of_scope",
+    "source_files": []
+  }
+]

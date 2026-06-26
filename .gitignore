@@ -1,15 +1,13 @@
-# Data — never commit the cloned handbook or processed chunks
 data/raw/
 data/processed/
 
-# Model caches
 .cache/
 models/
 *.bin
 *.safetensors
 *.gguf
 
-# Python
+#
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -20,20 +18,15 @@ venv/
 wikipilot/   # project venv
 *.egg
 
-# Qdrant local storage
 qdrant_storage/
 
-# Env
 .env
 .env.*
 
-# Notebooks outputs
 notebooks/.ipynb_checkpoints/
 
-# Installers
 vs_buildtools.exe
 
-# HuggingFace cache
 .huggingface/
 
 # OS

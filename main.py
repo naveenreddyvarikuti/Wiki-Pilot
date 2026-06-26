@@ -10,6 +10,8 @@ from src.index.vector_store import build_vector_store, get_dense_retriever
 from src.retrieve.hybrid import hybrid_retrieve
 from src.retrieve.rerank import build_reranker, rerank
 from src.generate.llm import build_llm, generate_answer
+from src.generate.prompt_loader import list_versions
+from src.generate.citation_validator import validate_citations, format_validation_report
 
 DATA_DIR = Path("data/processed/raw_md")
 
@@ -40,7 +42,7 @@ def build_pipeline():
     return bm25_retriever, dense_retriever, reranker, llm
 
 
-def ask(query, bm25_retriever, dense_retriever, reranker, llm):
+def ask(query, bm25_retriever, dense_retriever, reranker, llm, prompt_version="v2"):
     hybrid_results = hybrid_retrieve(query, bm25_retriever, dense_retriever, k=10)
     reranked_docs = rerank(query, hybrid_results, reranker, top_k=5)
 
@@ -50,16 +52,23 @@ def ask(query, bm25_retriever, dense_retriever, reranker, llm):
         source = doc.metadata.get("source_file", "")
         print(f"  [Source {i}] {heading} ({source})")
 
-    print("\nAnswer:")
-    answer = generate_answer(query, reranked_docs, llm)
+    print(f"\nAnswer (prompt: {prompt_version}):")
+    answer = generate_answer(query, reranked_docs, llm, prompt_version=prompt_version)
     print(answer)
-    print()
+
+    result = validate_citations(answer, num_sources=len(reranked_docs))
+    print(f"\n{format_validation_report(result)}\n")
 
 
 def main():
     bm25_retriever, dense_retriever, reranker, llm = build_pipeline()
 
+    prompt_version = "v2"
+    versions = list_versions()
+    print(f"Available prompt versions: {versions}")
+    print(f"Active: {prompt_version} (type '/prompt vN' to switch)\n")
     print("Type your question (or 'quit' to exit):\n")
+
     while True:
         try:
             query = input("Q: ").strip()
@@ -72,8 +81,12 @@ def main():
         if query.lower() in ("quit", "exit", "q"):
             print("Goodbye.")
             break
+        if query.startswith("/prompt "):
+            prompt_version = query.split(" ", 1)[1].strip()
+            print(f"Switched to prompt: {prompt_version}\n")
+            continue
 
-        ask(query, bm25_retriever, dense_retriever, reranker, llm)
+        ask(query, bm25_retriever, dense_retriever, reranker, llm, prompt_version)
 
 
 if __name__ == "__main__":
